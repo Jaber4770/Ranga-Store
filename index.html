@@ -18,10 +18,11 @@
 </head>
 
 <body>
-  <header>
+  <!-- heading -->
     <h1 class="text-primary m-5 text-center">Welcome to my Shop</h1>
   </header>
   <main class="main">
+    <!-- search field and button -->
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" placeholder="Search here" />
@@ -31,6 +32,7 @@
         </button>
       </div>
     </div>
+    <!-- My-Cart details  -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -40,6 +42,7 @@
         <div class="cart" id="my-cart">
           <table class="table">
             <thead>
+              <!-- cart title -->
               <h1 class="text-info">My-Cart</h1>
               <tr>
                 <th scope="col"></th>
@@ -50,30 +53,35 @@
             </thead>
             <tbody>
               <tr>
+                <!-- total product -->
                 <th class="text-primary">Total Added-Products:</th>
                 <td><span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- price without tax  -->
                 <th class="text-primary">Price:</th>
                 <td>$ <span id="price">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- delivery-charge -->
                 <th class="text-primary">Delivery-Charge:</th>
                 <td>$ <span id="delivery-charge">20</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- tax  -->
                 <th class="text-primary">Total-Tax:</th>
                 <td>$ <span id="total-tax">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- total with delivery-charge and tax  -->
                 <th class="text-primary" scope="row">Total</th>
                 <td colspan="2">$ <span id="total">0</span></td>
                 <td></td>
@@ -81,6 +89,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
+            <!-- buy now -->
             <button class="btn btn-danger text-center">Buy Now</button>
           </div>
         </div>
